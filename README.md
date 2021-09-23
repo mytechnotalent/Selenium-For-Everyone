@@ -1,4 +1,4 @@
-![image](https://github.com/mytechnotalent/Ansible-For-Everyone/blob/main/Ansible%20For%20Everyone.png?raw=true)
+![image](https://user-images.githubusercontent.com/7095767/134491646-95830793-450b-42b2-87dc-9771e483679b.png)
 
 # Selenium For Everyone
 A FREE Selenium course that takes you step-by-step through building a custom Selenium Framework from scratch.
