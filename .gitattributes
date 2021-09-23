@@ -1,2 +1,1 @@
-*.java linguist-detectable=true
-*.makefile linguist-detectable=false
+*.java linguist-language=java
