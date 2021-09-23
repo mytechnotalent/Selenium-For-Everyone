@@ -1,17 +1,17 @@
 ![image](https://user-images.githubusercontent.com/7095767/134491646-95830793-450b-42b2-87dc-9771e483679b.png)
 
 # Selenium For Everyone
-A FREE Selenium course that takes you step-by-step through building a custom Selenium Framework from scratch.
+The book and code repo for the FREE Selenium For Everyone book by Kevin Thomas.
 
-## Lesson 1: Ansible For Everyone (Part 1: In The Beginning There Was Manual...)
-This tutorial will introduce Ansible and set-up or development environment.
+## FREE Book
+[Download](https://github.com/mytechnotalent/micropython-firmware-development/blob/main/MicroPython_Firmware_Development_3r1.pdf)
 
--> Click [HERE](https://www.linkedin.com/pulse/lesson-1-ansible-everyone-part-beginning-manual-kevin-thomas/) to read the article on LinkedIn.
+## Chapter 1: Getting Started
+This chapter covers how to setup your Selenium Framework inside the Eclipse IDE and completing a simple brower test utilizing the Chromium driver.
 
-## Lesson 2: Ansible For Everyone (Part 2: Ansible Ad-Hoc Commands & Modules)
-This tutorial will discuss Ansible ad-hoc commands and Ansible modules.
+-> Click [HERE](https://github.com/mytechnotalent/micropython-firmware-development/blob/main/MicroPython_Firmware_Development_3r1.pdf) to read the FREE pdf book.
 
--> Click [HERE](https://www.linkedin.com/pulse/ansible-everyone-part-2-ad-hoc-commands-modules-kevin-thomas/) to read the article on LinkedIn.
+## BOOK IS UNDER DEVELOPMENT
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
