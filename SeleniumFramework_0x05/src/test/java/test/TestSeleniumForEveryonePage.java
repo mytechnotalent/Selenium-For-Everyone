@@ -2,6 +2,7 @@ package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -19,11 +20,29 @@ public class TestSeleniumForEveryonePage {
 	}
 	
 	@Test
-	public void testSeleniumForEveryone() {
+	public void testSeleniumForEveryoneTitle() {
+		String expectedTitle;
+		String actualTitle;
+		driver.get("http://localhost:8000");
+		expectedTitle = "SFE";
+		actualTitle = driver.getTitle();
+		Assert.assertEquals(actualTitle, expectedTitle);
+	}
+	
+	@Test
+	public void testSeleniumForEveryoneSearchPageTitle() {
+		String expectedTitle;
+		String actualTitle;
 		SeleniumForEveryonePageObjects seleniumForEveryonePageObject = new SeleniumForEveryonePageObjects(driver);
 		driver.get("http://localhost:8000");
 		seleniumForEveryonePageObject.setTextInTextBox("coffee");
 		seleniumForEveryonePageObject.clickButton();
+		for(String winHandle : driver.getWindowHandles()) {
+		    driver.switchTo().window(winHandle);
+		}
+		expectedTitle = "coffee site:google.com - Google Search";
+		actualTitle = driver.getTitle();
+		Assert.assertEquals(actualTitle, expectedTitle);
 	}
 	
 	@AfterTest

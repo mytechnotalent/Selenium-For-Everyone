@@ -5,8 +5,8 @@
     <classes>
       <class name="test.TestSeleniumForEveryonePage">
         <methods>
+          <include name="testSeleniumForEveryoneSearchPageTitle"/>
           <include name="setUpTest"/>
-          <include name="testSeleniumForEveryone"/>
           <include name="tearDownTest"/>
         </methods>
       </class> <!-- test.TestSeleniumForEveryonePage -->
